@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo/ui/home/settings/Settings_Tab.dart';
-import 'package:todo/ui/home/tasks_list/Tasks_List_Tab.dart';
+import 'package:todo/ui/home/tasks_list/TodosTab.dart';
 
 import 'Add_Task_Sheet.dart';
 
@@ -19,9 +19,10 @@ class _HomeScreenState extends State<HomeScreen> {
    return Scaffold(
      backgroundColor:Theme.of(context).colorScheme.secondary,
      appBar: AppBar(
-       title: Text('Todo',
+       title: Text('To do List',
        style: Theme.of(context).textTheme.headline1,
        ),
+       toolbarHeight: MediaQuery.of(context).size.height*.13,
      ),
 
      bottomNavigationBar: BottomAppBar(

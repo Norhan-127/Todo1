@@ -20,7 +20,7 @@ class MyThemeData {
           background: colorLightGreen,
           onBackground: lightPrimary,
           surface: Colors.white,
-          onSurface: colorWhite),
+          onSurface: Colors.black),
       scaffoldBackgroundColor: colorLightGreen,
       appBarTheme: AppBarTheme(
           centerTitle: false,
